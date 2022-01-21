@@ -6,10 +6,11 @@ export { Neurone };
 class Neurone extends Base {
   constructor(options = {}) {
     super(options);
-    this.options = options;
-    this._data = Object.assign({}, modele);
-    this._data["ve:created"] = Date.now();
-    this._data.id = uuidv4(); //console.log(this)
+    Object.assign(this, modele);
+    this.options = options; // this._data = Object.assign({}, modele)
+
+    this["ve:created"] = Date.now();
+    this.id = uuidv4(); //console.log(this)
     // ...
   }
 

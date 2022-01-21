@@ -1,2 +1,2 @@
 //import * as Constants from "./constants/index.js";
-export * from './factory.js'
+export * from './brain.js'

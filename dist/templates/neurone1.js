@@ -6,9 +6,9 @@ export default {
     "@type": "type"
   },
   "id": null,
-  "ve:name": null,
+  "ve:name": "",
   "ve:age": 0,
-  "ve:url": null,
+  "ve:url": "",
   "ve:privacy": 'private',
   "ve:type": "node",
   "ve:properties": [],
