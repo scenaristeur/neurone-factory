@@ -8,12 +8,13 @@ export { Brain }
 class Brain extends Base {
   constructor(options = {}) {
     super(options)
-    console.log('factice brain hihihi')
+    options['ve:type'] == undefined ? this['ve:type'] = "brain": ""
+    // console.log('factice brain hihihi')
   }
 
-  createNeurone(options = {}){
-    console.log("create", options)
-    let neurone = new Neurone(options)
-    return neurone
-  }
+  // createNeurone(options = {}){
+  //   console.log("create", options)
+  //   let neurone = new Neurone(options)
+  //   return neurone
+  // }
 }
