@@ -9,7 +9,7 @@ class Neurone extends Base {
     super(options)
     this.options = options
     this._data = Object.assign({}, modele)
-    this._data["ve:created"] = new Date()
+    this._data["ve:created"] = Date.now()
     this._data.id = uuidv4()
     //console.log(this)
     // ...
