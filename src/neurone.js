@@ -1,4 +1,3 @@
-
 import { Base } from "./base.js"
 
 export { Neurone }
