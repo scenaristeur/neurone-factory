@@ -9,12 +9,12 @@ describe("neurone-factory", async function(){
   afterEach(async function(){})
 
   it('graph', async function(){
-    let graph = new Graph({ "ve:name": "The viz", bibop: true})
+    let graph = new Graph({ "name": "The viz", bibop: true})
     graph.debug()
     //  console.log("graph", graph)
     //  console.log("template of neurone1 ", neurone1)
     //  assert.typeOf(neurone1, 'object');
-    // assert(neurone1["ve:type"] == 'node', "type is node");
-    // assert.typeOf(neurone1["ve:links"], 'array');
+    // assert(neurone1["type"] == 'node', "type is node");
+    // assert.typeOf(neurone1["links"], 'array');
   })
 })

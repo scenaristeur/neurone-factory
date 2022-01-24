@@ -14,7 +14,7 @@ describe("command", async function(){
     //  console.log("graph", graph)
     //  console.log("template of neurone1 ", neurone1)
     //  assert.typeOf(neurone1, 'object');
-    // assert(neurone1["ve:type"] == 'node', "type is node");
-    // assert.typeOf(neurone1["ve:links"], 'array');
+    // assert(neurone1["type"] == 'node', "type is node");
+    // assert.typeOf(neurone1["links"], 'array');
   })
 })

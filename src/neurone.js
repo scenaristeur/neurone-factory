@@ -5,7 +5,7 @@ export { Neurone }
 class Neurone extends Base {
   constructor(options = {}) {
     super(options)
-    options['ve:type'] == undefined ? this['ve:type'] = "neurone": ""
+    options['type'] == undefined ? this['type'] = "neurone": ""
     // this.options = options
 
     // this._data = Object.assign({}, modele)

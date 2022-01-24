@@ -6,7 +6,7 @@ export { Command }
 class Command extends Base {
   constructor(options = {}) {
     super(options)
-    options['ve:type'] == undefined ? this['ve:type'] = "command": ""
+    options['type'] == undefined ? this['type'] = "command": ""
     // this.options = options
 
     // this._data = Object.assign({}, modele)

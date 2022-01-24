@@ -4,7 +4,7 @@ export { Command };
 class Command extends Base {
   constructor(options = {}) {
     super(options);
-    options['ve:type'] == undefined ? this['ve:type'] = "command" : ""; // this.options = options
+    options['type'] == undefined ? this['type'] = "command" : ""; // this.options = options
     // this._data = Object.assign({}, modele)
     // this["ve:created"] = Date.now()
     // this.id = uuidv4()

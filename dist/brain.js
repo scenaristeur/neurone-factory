@@ -6,7 +6,7 @@ export { Brain };
 class Brain extends Base {
   constructor(options = {}) {
     super(options);
-    options['ve:type'] == undefined ? this['ve:type'] = "brain" : ""; // console.log('factice brain hihihi')
+    options['type'] == undefined ? this['type'] = "brain" : ""; // console.log('factice brain hihihi')
   } // createNeurone(options = {}){
   //   console.log("create", options)
   //   let neurone = new Neurone(options)

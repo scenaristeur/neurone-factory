@@ -9,7 +9,7 @@ export { Graph };
 class Graph extends Base {
   constructor(options = {}) {
     super(options);
-    options['ve:type'] == undefined ? this['ve:type'] = "graph" : ""; // Object.assign(this, modele);
+    options['type'] == undefined ? this['type'] = "graph" : ""; // Object.assign(this, modele);
     // this.options = options
     // this._data = Object.assign({}, modele)
     //console.log(this)

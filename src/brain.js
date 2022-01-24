@@ -8,7 +8,7 @@ export { Brain }
 class Brain extends Base {
   constructor(options = {}) {
     super(options)
-    options['ve:type'] == undefined ? this['ve:type'] = "brain": ""
+   options['type'] == undefined ? this['type'] = "brain": ""
     // console.log('factice brain hihihi')
   }
 
