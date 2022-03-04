@@ -2,7 +2,7 @@
 // import ForceGraph3D from '3d-force-graph';
 // import SpriteText from 'three-spritetext';
 // import * as THREE from "three";
-import { v4 as uuidv4 } from 'uuid';
+//import { v4 as uuidv4 } from 'uuid';
 import { Base } from "./base.js";
 export { Graph };
 

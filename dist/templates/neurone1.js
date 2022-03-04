@@ -9,7 +9,7 @@ export default {
     "age": "ve:age",
     "url": "ve:url",
     "privacy": "ve:privacy",
-    "type": "ve:type",
+    //"type": "ve:type",
     "properties": "ve:properties",
     "links": "ve:links",
     "synapses": "ve:synapses",

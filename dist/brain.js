@@ -1,6 +1,6 @@
 //console.log("Neurone Factory")
-import { Base } from "./base.js";
-import { Neurone } from "./neurone.js";
+import { Base } from "./base.js"; //import { Neurone } from "./neurone.js"
+
 export { Brain };
 
 class Brain extends Base {

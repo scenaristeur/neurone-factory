@@ -1,0 +1,10 @@
+declare module "neurone-factory" {
+    declare class Brain {}
+    declare class Neurone {}
+    declare class Graph {}
+    declare class Command {}
+    export default Brain;
+    export default Neurone;
+    export default Graph;
+    export default Command;
+}
